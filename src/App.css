@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "GlacialIndiference";
+  src: url("https://storage.googleapis.com/pb-portfolio/WEB/GlacialIndifference-Bold.woff") format("woff");
+  src: url("https://storage.googleapis.com/pb-portfolio/WEB/GlacialIndifference-Regular.woff") format("woff");
+  src: url("https://storage.googleapis.com/pb-portfolio/WEB/GlacialIndifference-Regular.woff2") format("woff2");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html {
+  font-family: "GlacialIndiference", sans-serif; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  border: 1px solid gold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

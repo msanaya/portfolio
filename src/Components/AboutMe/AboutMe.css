@@ -1,0 +1,48 @@
+#about-me-container {
+  background:  url("https://storage.googleapis.com/pb-portfolio/background_portfolio.png");
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  padding-top: 9%;
+  color: white;
+}
+
+#about-me-title{
+  font-size: 72px;
+}
+
+h1{
+  font-family: 'GlacialIndiference', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+.about-me-detail{
+  height: 80vh;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2e1e6;
+  color: #355C7D;
+  /* text-shadow: -1px 1px 0#355C7D, 
+    1px 1px 0 #355C7D, 
+    1px -1px 0 #355C7D,
+		-1px -1px 0 #355C7D; */
+}
+
+#about-me-sub{
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+}
+
+#about-me-paragraph {
+  padding: 20px 55px 20px 55px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
